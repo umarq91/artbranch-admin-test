@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import PictureLayout from "../../components/PictureLayout/PictureLayout";
 import useLogin from "./useLogin";
 import Leaf from "../../../public/assets/leaf.png";
-import Background from "../../../public/assets/Background.png";
+import Background from "../../../public/assets/background.png";
 import Button from "../../components/Button";
 import { FaEye, FaEyeSlash } from "react-icons/fa";
 
