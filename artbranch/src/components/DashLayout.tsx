@@ -23,7 +23,10 @@ const DashLayout: React.FC = () => {
       case "artists":
         navigate("/artist");
         break;
-        case "feedback":
+      case "reports":
+        navigate("/reports");
+        break;
+      case "feedback":
         navigate("/feedback");
         break;
       case "approvals":
@@ -38,10 +41,10 @@ const DashLayout: React.FC = () => {
       case "activities":
         navigate("/activities");
         break;
-        case "staleArtists":
+      case "staleArtists":
         navigate("/staleArtists");
         break;
-        
+
       case "admins":
         if (role === "SuperAdmin") {
           navigate("/admins");
