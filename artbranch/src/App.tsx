@@ -21,7 +21,7 @@ import EditAdmin from "./pages/Users/edit/EditAdmin";
 import Profile from "./pages/myProfile/Profile";
 import StaleArtists from "./pages/staleArtists/StaleArtists";
 import Feedback from "./pages/Feedback/Feedback";
-import UserReports from "./pages/reports/Reports";
+import ReportedPostsTable from "./pages/reports/Reports";
 
 export default function App() {
   return (
@@ -50,7 +50,7 @@ export default function App() {
             element={<DetailsPage />}
           />
           <Route path="/activities" element={<Activities />} />
-          <Route path="/reports" element={<UserReports />} />
+          <Route path="/reports" element={<ReportedPostsTable />} />
 
           {/* Accessible only to SuperAdmin */}
           <Route path="/admins" element={<Admin />} />
